@@ -68,15 +68,15 @@ namespace Stack
             }
             Console.Write($"Стек содержит {stack.Count} элементов.");
             // Получаем элементы с удалением.
-            var item1 = stack.Pop();
-            Console.WriteLine($"Верхний элемент {item1}.");
-            var item2 = stack.Pop();
-            Console.WriteLine($"Предпоследний элемент {item2}.");
+            var a1 = stack.Pop();
+            Console.WriteLine($"Верхний элемент {a1}.");
+            var a2 = stack.Pop();
+            Console.WriteLine($"Предпоследний элемент {a2}.");
             // Получаем элемент без удаления.
-            var item3 = stack.Peek();
-            Console.WriteLine($"Новый верхний элемент {item3}.");
-            var item4 = stack.Peek();
-            Console.WriteLine($"Новый верхний элемент {item4}.");
+            var a3 = stack.Peek();
+            Console.WriteLine($"Новый верхний элемент {a3}.");
+            var a4 = stack.Peek();
+            Console.WriteLine($"Новый верхний элемент {a4}.");
             Console.ReadLine();
         }
     }
